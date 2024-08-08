@@ -1,0 +1,103 @@
+pagina web:
+
+se sapara en front end y en back end 
+
+
+front end : presentacion como voy a presentar al usuario mi pagina web , UI), HTML , CSS , JAVASCRIPT , donde se debe poner como se debe poner y todo el diseño va aqui
+
+back end : hablamos de un servidor , es una applalicacion que esta detras , hablamos de una applicacion que no tiene interfaz de usuario , puede ser con python , backend con python , backend con php y al dia de hoy se puede hacer un
+            backend con javascript.
+
+
+el servidor , tiene dos partes.
+
+
+el usuario interactua con el front end , con el navegador 
+
+el navegador mediante un a url accede a un servidor , el servidor mediante un puerto especifico le va a devolver el html , un archivo "index"
+
+el navegador solo toma el html y lo pega 
+
+al final el front end es un conjunto de archivos . 
+
+cuando hablamos de http y https hablamos de protocolo , https agrega un protocolo de seguridad.
+
+cuando hablamos de vanila , es como javacript puro o css puro 
+
+por ejemplo boostrap no es vanila , ya que nos ayuda con el css o javascript , nos facilita el trabajo.
+
+
+podemos tener framework en el front end y en el back end.
+
+
+la idea de los framework es codigo echo y nos ayuda ya echa.
+
+
+(el curso se separa en front end . back end y full stack.)
+
+
+vamos a trabajar con mysql y con git(versionamiento).
+
+HTML5:
+
+-es un lenguaje de etiquetado ( no lenguaje de programacion).
+
+
+- sirve para escructurar el contenido de la pagina (estructura semantica)
+- conformado con etiquetas 
+- <p> esto es un parrafo </p>    (esto es un elemento html , 
+
+------------------------------------------------------------------------------------
+
+- <p> es la etiqueta pero es la apertura 
+
+- </p> es el cierre de la etiqueta 
+
+- <a> es en donde uno puede poner el link 
+
+-----------------------------------------------------------------------------------
+
+<a href = "www.google.cl> google </a>
+
+
+- href = "www.google.cl es la propiedad , como el atributo.
+
+----------------------------------------------------------------------------------------
+
+<img es un elemento vacio ya que no se va a proyectar , es una imagen osea da lo mismo el contenido de adentro ademas no es neceario cerrarlo ya que puede ser como :
+
+>img src = ".../../foro.png" />
+
+
+-src , es la ruta en donde va a estar
+
+- >img src = ".../../foro.png" alt = "fotito '1' " />  el alt lo que me hace es que cuando paso el mouse diga fotito 1 en un recuadro chico
+
+
+
+
+texfield = es un campo en donde uno puede escribir por ejemplo los input.
+
+<input > </input> 
+
+--------------------------------------------------------------------------------------------------------------
+
+los comentarios se utilizan como 
+
+<!-- comentario -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
