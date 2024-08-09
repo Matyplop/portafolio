@@ -1,0 +1,27 @@
+/* como vamos a presentar la estructura del html ,podemos crear muchos archivos css
+selector: elemento , id , clase
+
+section : etiqueta elemento
+#section : estoy usando selector id
+.seccion : estoy usando selector clase (para seleccionar un conjunto de secciones)
+
+*/
+
+
+section {
+    background-color: gold;
+}
+
+#section-1 {
+    background-color: navy;
+
+
+
+}
+
+.secciones{
+    background-color: red;
+
+
+}
+
