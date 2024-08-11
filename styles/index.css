@@ -8,9 +8,7 @@ section : etiqueta elemento
 */
 
 
-section {
-    background-color: gold;
-}
+
 
 #section-1 {
     background-color: navy;
@@ -25,3 +23,37 @@ section {
 
 }
 
+.contenedor{
+
+    max-width: 50%; /*que sea estrecho*/
+    margin-left: 0 auto; /* lo centra automaticamente */
+
+}
+.borde{
+
+    border-bottom: solid 3px;
+}
+
+.header {
+    text-align: center;
+    background-color: #505050;
+    box-shadow: 1px 1px 10px #555;
+
+
+
+}
+.header img {
+    
+    border: solid;
+    color: snow;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.seccion{
+
+    margin: 20px auto;
+    height: 500px;
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+}
