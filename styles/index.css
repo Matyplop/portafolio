@@ -7,26 +7,18 @@ section : etiqueta elemento
 
 */
 
+.body {
 
-
-
-#section-1 {
-    background-color: navy;
-
-
-
+    background-color:snow;
 }
 
-.secciones{
-    background-color: red;
 
-
-}
 
 .contenedor{
 
     max-width: 50%; /*que sea estrecho*/
-    margin-left: 0 auto; /* lo centra automaticamente */
+    margin-left: 0 auto;
+    text-align: center;
 
 }
 .borde{
@@ -34,6 +26,9 @@ section : etiqueta elemento
 
     border-bottom: solid 3px;
     color: #1f7dcf;
+    margin: 0 auto;
+    width: 200px; /* ajusta el ancho a 50 píxeles */
+    height: 2px;
 }
 
 .header {
@@ -54,12 +49,53 @@ section : etiqueta elemento
 .seccion{
 
     
-    margin: 20px auto;
+    margin: 20px;
     height: 300px;
-    width: 90%;
+    width: 50%;
     box-shadow: 1px 1px 10px #555;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    bottom:  640px;
+
+
+    
+    
+    
+    
 }
 
+.seccion_1 {
+    margin: 20px;
+    height: 300px;
+    width: 48%;
+
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+    margin-left: auto;
+    margin-right: left
+    ;
+  }
+
+.seccion_2 {
+    margin: 20px;
+    height: 300px;
+    width: 50%;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+  
+
+.container-secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 .experience  h2{
     text-align: center;
 
@@ -89,3 +125,15 @@ section : etiqueta elemento
     height: 2px;
 }
 
+.icons_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 48px;
+  }
+  
+  .ico {
+    font-size: 36px;
+    margin: 0 10px;
+    color: snow;
+  }
