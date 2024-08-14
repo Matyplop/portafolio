@@ -31,29 +31,61 @@ section : etiqueta elemento
 }
 .borde{
 
+
     border-bottom: solid 3px;
+    color: #1f7dcf;
 }
 
 .header {
     text-align: center;
-    background-color: #505050;
+    color: snow;
+    background-color: #1f7dcf;
     box-shadow: 1px 1px 10px #555;
-
-
-
+    padding-bottom: 50px;
 }
 .header img {
     
     border: solid;
     color: snow;
-    width: 300px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 60%;
 }
 
 .seccion{
 
+    
     margin: 20px auto;
-    height: 500px;
+    height: 300px;
     width: 90%;
     box-shadow: 1px 1px 10px #555;
 }
+
+.experience  h2{
+    text-align: center;
+
+}
+.container-experience {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:  20px;
+    border:  solid thin green;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 36px;
+    margin: 0 10px;
+    color: snow;
+}
+.borde_2 {
+    border-bottom: solid 3px;
+    color: snow;
+    margin: 0 auto;
+    width: 200px; /* ajusta el ancho a 50 píxeles */
+    height: 2px;
+}
+
