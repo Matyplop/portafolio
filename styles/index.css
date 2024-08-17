@@ -7,9 +7,26 @@ section : etiqueta elemento
 
 */
 
-.body {
+html{
+    font-family: "Moderustic", sans-serif;
+    --primary-color: #79b4a9;
+    --text-color: snow;
+    --secondary-color: #111d13;
+    
+    
+    
+}
 
-    background-color:snow;
+.div_prueba{
+  
+    color: var(--text-color);
+
+
+}
+
+body{
+    
+    color: var(--secondary-color);
 }
 
 
@@ -25,7 +42,6 @@ section : etiqueta elemento
 
 
     border-bottom: solid 3px;
-    color: #1f7dcf;
     margin: 0 auto;
     width: 200px; /* ajusta el ancho a 50 píxeles */
     height: 2px;
@@ -33,15 +49,15 @@ section : etiqueta elemento
 
 .header {
     text-align: center;
-    color: snow;
-    background-color: #1f7dcf;
+    background-color: var(--primary-color);
     box-shadow: 1px 1px 10px #555;
     padding-bottom: 50px;
+    color : var(--text-color);
+   
 }
 .header img {
     
     border: solid;
-    color: snow;
     width: 200px;
     border-radius: 60%;
 }
@@ -51,12 +67,13 @@ section : etiqueta elemento
     
     margin: 20px;
     height: 300px;
-    width: 50%;
-    box-shadow: 1px 1px 10px #555;
+    width: 70%;
+   
     text-align: center;
     position: relative;
     right: 20px;
     bottom:  640px;
+
 
 
     
@@ -64,17 +81,84 @@ section : etiqueta elemento
     
     
 }
+.seccion h2{
+    color: var(--text-color);
+    box-shadow: 1px 1px 10px #555;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    left: 280px;
+    background-color: var(--primary-color);
+    
+
+
+
+}
+.top-categories{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.container-categories{
+    display: grid;
+    justify-content: center;
+    align-items: center ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card-category{
+    height: 20rem;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+    box-shadow: 1px 1px 10px #555;
+    position: relative;
+    right: 1%;
+    top: 40px;
+    left: 500px;
+}
+.category-campeon{
+    background-image: url(../img/campeon.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.category-basedatos{
+    background-image: url(../img/basedatos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 970px;
+    top: -280px;
+   
+   
+    }
+
+
+
 
 .seccion_1 {
     margin: 20px;
     height: 300px;
-    width: 48%;
+    width: 50%;
 
     box-shadow: 1px 1px 10px #555;
     text-align: center;
     margin-left: auto;
-    margin-right: left
-    ;
+    margin-right: auto;
+    margin-top: 70px;
+    position: relative;
+    
+    left: 500px;
+    top: 570px;
   }
 
 .seccion_2 {
@@ -85,6 +169,10 @@ section : etiqueta elemento
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
+    position: relative;
+    top: 200px;
+    right: 450px;
 
 
 
@@ -115,11 +203,12 @@ section : etiqueta elemento
     margin-top: 20px;
     font-size: 36px;
     margin: 0 10px;
-    color: snow;
+   
 }
 .borde_2 {
     border-bottom: solid 3px;
-    color: snow;
+    
+
     margin: 0 auto;
     width: 200px; /* ajusta el ancho a 50 píxeles */
     height: 2px;
@@ -130,10 +219,11 @@ section : etiqueta elemento
     justify-content: space-between;
     margin-top: 20px;
     font-size: 48px;
+    
   }
   
   .ico {
     font-size: 36px;
     margin: 0 10px;
-    color: snow;
+  
   }
