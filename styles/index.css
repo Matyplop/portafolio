@@ -193,6 +193,22 @@ body,html{
 
 
 }
+
+.seccion_3{
+    margin: 20px;
+    height: 300px;
+    width: 50%;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
   
 
 .container-secciones {

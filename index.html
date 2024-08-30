@@ -167,6 +167,27 @@
 
         
         </section>
+
+        <div class = "seccion">
+            <h2> Formulario</h2>
+        </div>
+
+        <section class ="seccion_3">
+
+            
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input  class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Apellido</label>
+                    <input class="form-control" id="apellido">
+                </div>
+                <button onclick="enviar()" type="submit" class="btn btn-success">Enviar</button>
+            </form>
+
+        </section>
         
        
        
@@ -175,6 +196,13 @@
 
 
     </main>
+    <script> 
+        function enviar(){
+            nombre = document.getElementById("nombre").value
+            apellido = document.getElementById("apellido").value
+            alert("Nombre: " + nombre + " " + apellido)
+            }
+    </script>
    
   
     
