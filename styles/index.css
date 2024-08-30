@@ -24,9 +24,12 @@ html{
 
 }
 
-body{
+body,html{
     
     color: var(--secondary-color);
+    margin : 0;
+    padding: 0;
+    overflow: auto;
 }
 
 
@@ -53,6 +56,7 @@ body{
     box-shadow: 1px 1px 10px #555;
     padding-bottom: 50px;
     color : var(--text-color);
+    width: 100%;
    
 }
 .header img {
@@ -62,17 +66,24 @@ body{
     border-radius: 60%;
 }
 
+.img{
+    border: solid;
+    width: 200px;
+    border-radius: 60%;
+    position: sticky;
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .seccion{
 
     
-    margin: 20px;
-    height: 300px;
-    width: 70%;
-   
+    margin: 60px;
+    width: 100;
+
     text-align: center;
-    position: relative;
-    right: 20px;
-    bottom:  640px;
 
 
 
@@ -84,13 +95,12 @@ body{
 .seccion h2{
     color: var(--text-color);
     box-shadow: 1px 1px 10px #555;
+    
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
     text-align: center;
-    margin:0 auto;
-    position: relative;
-    left: 280px;
+    margin-bottom: 50px;
     background-color: var(--primary-color);
     
 
@@ -120,10 +130,6 @@ body{
     border-radius: 2rem;
     gap: 2rem;
     box-shadow: 1px 1px 10px #555;
-    position: relative;
-    right: 1%;
-    top: 40px;
-    left: 500px;
 }
 .category-campeon{
     background-image: url(../img/campeon.png);
@@ -135,9 +141,6 @@ body{
     background-image: url(../img/basedatos.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    left: 970px;
-    top: -280px;
    
    
     }
@@ -155,10 +158,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
-    position: relative;
-    
-    left: 500px;
-    top: 570px;
   }
 
 .seccion_2 {
@@ -170,9 +169,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
-    position: relative;
-    top: 200px;
-    right: 450px;
+    display: flex;
+    flex-direction: column;
 
 
 
@@ -198,7 +196,7 @@ body{
 }
 
 .icons {
-    display: flex;
+   
     justify-content: center;
     margin-top: 20px;
     font-size: 36px;
@@ -215,12 +213,20 @@ body{
 }
 
 .icons_2{
-    display: flex;
+    display: flex;  /*el contenedor se adapte */
+    flex-direction:row ;  /*direcion en fila*/
+    flex-wrap: wrap;  /*cuando no hay espacio se va para abajo*/
     justify-content: space-between;
     margin-top: 20px;
     font-size: 48px;
     
   }
+
+  .icons_2 img{
+    width: 100px;
+
+
+}
   
   .ico {
     font-size: 36px;
