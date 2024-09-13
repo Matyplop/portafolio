@@ -162,6 +162,21 @@ body,html{
    
     }
 
+.category-todolist{
+    background-image: url(../img/todolist.png);
+    background-size: cover;
+    
+    
+
+}
+
+
+.boton_posicion{
+
+    margin: flex-end;
+}
+
+
 
 
 
