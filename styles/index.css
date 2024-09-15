@@ -9,7 +9,7 @@ section : etiqueta elemento
 
 html{
     font-family: "Moderustic", sans-serif;
-    --primary-color: #79b4a9;
+    --primary-color: black;
     --text-color: snow;
     --secondary-color: #111d13;
     
@@ -148,27 +148,11 @@ body,html{
     
 
 }
-.category-campeon{
-    background-image: url(../img/campeon.png);
-    background-size: cover;
-   background-repeat: no-repeat;
-}
 
-.category-basedatos{
-    background-image: url(../img/basedatos.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-   
-    }
 
-.category-todolist{
-    background-image: url(../img/todolist.png);
-    background-size: cover;
-    
-    
 
-}
+
+
 
 
 .boton_posicion{
@@ -182,15 +166,13 @@ body,html{
 
 .seccion_1 {
     margin: 20px;
-    height: 300px;
+    
     width: 50%;
-    box-shadow: 1px 1px 10px #555;
+    height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
+   
   }
 
 .seccion_2 {
