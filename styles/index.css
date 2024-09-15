@@ -8,13 +8,82 @@ section : etiqueta elemento
 */
 
 html{
-    font-family: "Moderustic", sans-serif;
+    font-family: "Montserrat", sans-serif;
     --primary-color: black;
     --text-color: snow;
     --secondary-color: #111d13;
     
     
     
+}
+
+main{
+
+    background-color: #f8f7ff;
+}
+
+h1{
+   padding-top: 30px;
+
+}
+
+
+
+.seccion_0{
+    
+    background-color: #0a0908
+    
+
+
+}
+.Nombre{
+    margin: auto;
+    color : var(--text-color);
+    text-align: center;
+    
+   
+    
+
+    
+    
+    
+
+}
+
+.Nombre_h1{
+    color : var(--text-color);
+    
+    font-size: 50px;
+    color: #a7c957;
+    
+}
+
+.foto_mia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom: 30px;
+    
+
+}
+.foto_mia img{
+    width: 200px; 
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid white;
+   
+
+}
+
+
+.container{
+
+    text-align: center;
+    height: auto;
+    padding-bottom: 50px;
+    color : var(--text-color);
+    width: 100%;
 }
 
 .div_prueba{
@@ -26,11 +95,13 @@ html{
 
 body,html{
     
-    color: var(--secondary-color);
-    margin : 0;
+    width: 100%;
     padding: 0;
-    overflow: auto;
+    margin:0;
+  
+    
 }
+
 
 
 
@@ -52,21 +123,14 @@ body,html{
     width: 100%;
    
 }
-.header img {
-    
-    border: solid;
-    width: 200px;
-    border-radius: 60%;
-}
+
 
 .img{
-    border: solid;
-    width: 200px;
-    border-radius: 60%;
-    position: sticky;
-    top:0;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px; 
+    height: auto;
+    margin: center;
+    
+    
 
 }
 
@@ -134,24 +198,16 @@ body,html{
     
 }
 
-.card-category{
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display:  flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
-    gap: 2rem;
-    box-shadow: 1px 1px 10px #555;
+
+
+
+
+.card{
+
     
-
+    width: 19rem;
+    box-shadow: 1px 1px 10px #555;
 }
-
-
-
-
 
 
 
@@ -232,6 +288,10 @@ body,html{
     margin-top: 20px;
     font-size: 36px;
     margin: 0 10px;
+    text-align: center;
+    color : var(--text-color);
+    
+    
    
 }
 .borde_2 {
@@ -259,8 +319,21 @@ body,html{
 
 }
   
-  .ico {
-    font-size: 36px;
-    margin: 0 10px;
-  
-  }
+
+
+.icons a{
+    text-decoration: none;
+    outline: none;
+}
+
+.icons a i.bxl-instagram-alt {
+    color: white;
+}
+
+.icons a i.bxl-linkedin {
+    color: white;
+}
+
+.icons a i.bxl-github {
+    color: white;
+}
