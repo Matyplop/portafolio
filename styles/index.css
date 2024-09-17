@@ -50,6 +50,14 @@ h1{
 
 }
 
+.progress{
+    margin: 0 auto;
+    width: 200px; /* ajusta el ancho a 50 píxeles */
+    height: 2px;
+    background-color: #a7c957;
+    margin-bottom: 20px;
+}
+
 .Nombre_h1{
     color : var(--text-color);
     
@@ -334,13 +342,14 @@ body,html{
 }
 
 .icons_2{
-    display: flex;  /*el contenedor se adapte */
-    flex-direction:row ;  /*direcion en fila*/
-    flex-wrap: wrap;  /*cuando no hay espacio se va para abajo*/
+    display: flex;  /* El contenedor se adapta */
+    flex-direction: column;  /* Dirección en fila */
+    flex-wrap: nowrap;  /* No permite que los elementos se envuelvan */
     justify-content: space-between;
     margin-top: 20px;
     font-size: 48px;
-    
+    align-items: center;
+
   }
 
   .icons_2 img{
