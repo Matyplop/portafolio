@@ -2,6 +2,7 @@
   "name": "prueba_html",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://matyplop.github.io/Prueba_html/",
   "main": "script.js",
   "scripts": {
     "dev": "vite dev",
