@@ -1,0 +1,22 @@
+{
+  "name": "prueba_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "vite": "^5.4.7"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}

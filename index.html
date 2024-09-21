@@ -14,7 +14,8 @@
     y Fluoruros en Odontología: de json 
     la Pediatría a la Geriatría”, organizado por Postgrados."
     />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./tailwind.css" />
     <title>MatyPlop</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -27,30 +28,116 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="body">
-    <div>
-      <header class="d-flex justify-content-center py-3 bg-black text-white">
-        <ul class="nav nav-pills justify-content-center">
-          <li class="nav-item">
-            <a href="#" class="nav-link active bg-dark" aria-current="page"
-              >CV</a
+
+  <body class="bg-slate-100" id="home">
+    <header class="bg-black px-6 shadow">
+      <div
+        class="flex h-16 max-w-7.5xl mx-auto items-center justify-between text-white"
+      >
+        <button
+          class="-ml-1 rounded p-1 text-white hover:bg-slate-500 transition-colors hover:text-slate-100"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+
+        <div class="flex-1 flex items-center justify-center">
+          <a href="#home" class="text-white hover:rotate-6 duration-200">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-8 w-8"
             >
-          </li>
-          <li class="nav-item">
-            <a href="#seccion" class="nav-link text-white">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#seccion1" class="nav-link text-white">Educación</a>
-          </li>
-          <li class="nav-item">
-            <a href="#seccion2" class="nav-link text-white">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a href="#seccion3" class="nav-link text-white">Contacto</a>
-          </li>
-        </ul>
-      </header>
-    </div>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+              />
+            </svg>
+          </a>
+
+          <div class="ml-8 space-x-8 hidden md:flex">
+            <a
+              class="px-3 py-2 hover:text-slate-500 no-underline text-white"
+              href="#seccion"
+              >Proyectos</a
+            >
+            <a
+              class="text-white px-3 py-2 hover:text-slate-500 no-underline"
+              href="#seccion1"
+              >Educación</a
+            >
+            <a
+              class="text-white px-3 py-2 hover:text-slate-500 no-underline"
+              href="#seccion2"
+              >Experiencia</a
+            >
+            <a
+              class="text-white px-3 py-2 hover:text-slate-500 no-underline"
+              href="#seccion3"
+              >Contacto</a
+            >
+          </div>
+        </div>
+
+        <button
+          class="rounded-full text-slate-500 transition-colors hover:text-green-400"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="space-y-1 pb-3 pt-2 border-t md:hidden">
+        <a
+          href="#"
+          class="block rounded-md px-3 py-2 text-white hover:bg-slate-500 hover:text-slate-500 transition-colors no-underline"
+          >Proyectos</a
+        >
+        <a
+          href="#"
+          class="block rounded-md px-3 py-2 text-white hover:bg-slate-500 hover:text-slate-500 transition-colors no-underline"
+          >Educación</a
+        >
+        <a
+          href="#"
+          class="block rounded-md px-3 py-2 text-white hover:bg-slate-500 hover:text-slate-500 transition-colors no-underline"
+          >Experiencia</a
+        >
+        <a
+          href="#"
+          class="block rounded-md px-3 py-2 text-white hover:bg-slate-500 hover:text-slate-500 transition-colors no-underline"
+          >Contacto</a
+        >
+      </div>
+    </header>
 
     <main>
       <section class="seccion_0">
